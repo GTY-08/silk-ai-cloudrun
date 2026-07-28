@@ -1,0 +1,60 @@
+{
+  "shape_categories": [
+    "shape_1",
+    "shape_10",
+    "shape_2",
+    "shape_3",
+    "shape_4",
+    "shape_5",
+    "shape_6",
+    "shape_7",
+    "shape_8",
+    "shape_9"
+  ],
+  "sound_categories": [
+    "sound_1",
+    "sound_10",
+    "sound_2",
+    "sound_3",
+    "sound_4",
+    "sound_5",
+    "sound_6",
+    "sound_7",
+    "sound_8",
+    "sound_9"
+  ],
+  "class_names": [
+    "angry",
+    "calm",
+    "fear",
+    "happy",
+    "love",
+    "sad"
+  ],
+  "feature_order": [
+    "h",
+    "s",
+    "v",
+    "shape:shape_1",
+    "shape:shape_10",
+    "shape:shape_2",
+    "shape:shape_3",
+    "shape:shape_4",
+    "shape:shape_5",
+    "shape:shape_6",
+    "shape:shape_7",
+    "shape:shape_8",
+    "shape:shape_9",
+    "sound:sound_1",
+    "sound:sound_10",
+    "sound:sound_2",
+    "sound:sound_3",
+    "sound:sound_4",
+    "sound:sound_5",
+    "sound:sound_6",
+    "sound:sound_7",
+    "sound:sound_8",
+    "sound:sound_9"
+  ],
+  "note": "shape/sound inputs are zeroed; model learns color-only"
+}
